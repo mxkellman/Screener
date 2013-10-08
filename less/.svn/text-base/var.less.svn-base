@@ -1,0 +1,159 @@
+// Variables to customize the look and feel
+// -----------------------------------------------------
+
+// Colors
+// -------------------------
+@black:							#000;
+@grayDarker:					#222;
+@grayDark:						#333;
+@gray:							#555;
+@grayLight:						#999;
+@grayLighter:					#eee;
+@white:							#fff;
+
+@blue:							#049cdb;
+@blueDark:						#0064cd;
+@green:							#46a546;
+@red:							#85001D;
+@yellow:						#ffc40d;
+@orange:						#f89406;
+@pink:							#c3325f;
+@purple:						#7a43b6;
+
+@linkColor:						#2350B8;
+@linkColorHover:				darken(@linkColor, 15%);
+
+@bannerTop:						#999;
+@bannerBot:						#777;
+
+// Decoration
+// -------------------------
+@hrBorder:						@grayLighter;
+@background:					#fff;
+// @background:					url("../img/squares.png") repeat transparent;
+@borderType:					1px solid;
+@borderColor:					#ccc;
+
+
+// Typography
+// -------------------------
+
+// @baseFontFamily:				"Open Sans","Helvetica Neue", Arial, sans-serif;
+@baseFontFamily:				"Arial","Helvetica", "Verdana", sans-serif;
+@baseFontWeight:				300;
+@baseFontSize:					14px;
+@baseFontColor:					#333;
+
+@boldFontFamily:				inherit;
+@boldFontWeight:				400;
+
+// @btnFontFamily:					"Open Sans Condensed","Helvetica Neue Condensed", Arial Narrow, sans-serif;
+@btnFontFamily:				"Arial","Helvetica", "Verdana", sans-serif;
+@btnFontWeight:					700;
+@btnFontSize:					inherit;
+@btnFontColor:					@linkColor;
+
+@headingsFontFamily:			inherit;
+@headingsFontWeight: 			300;
+@headingsColor:					inherit;
+
+@placeholderText:				@grayLight;
+
+@baseLineHeight:				18px;
+
+.light-shadow-light { text-shadow: 0 1px 0 rgba(255,255,255, 1); } 
+.light-shadow-medium { text-shadow: 0 1px 0 rgba(255,255,255, .5); } 
+.light-shadow-heavy { text-shadow: 0 1px 0 rgba(255,255,255,.25); } 
+
+.dark-shadow-light { text-shadow: 0 1px 0 rgba(0,0,0, 1); } 
+.dark-shadow-medium { text-shadow: 0 1px 0 rgba(0,0,0, .5); } 
+.dark-shadow-heavy { text-shadow: 0 1px 0 rgba(0,0,0,.25); } 
+
+// Tables
+// -------------------------
+@tableBackground:				transparent; // overall background-color
+@tableBackgroundAccent:			#f9f9f9; // for striping
+@tableBackgroundHover:			#f5f5f5; // for hover
+@tableBorder:					#ddd; // table and cell border
+
+
+// Buttons
+// -------------------------
+@btnBackground:                     @white;
+@btnBackgroundHighlight:            darken(@white, 10%);
+@btnBorder:                         #ccc;
+
+@btnPrimaryBackground:              @linkColor;
+@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 15%);
+
+@btnInfoBackground:                 #5bc0de;
+@btnInfoBackgroundHighlight:        #2f96b4;
+
+@btnSuccessBackground:              #62c462;
+@btnSuccessBackgroundHighlight:     #51a351;
+
+@btnWarningBackground:              lighten(@orange, 15%);
+@btnWarningBackgroundHighlight:     @orange;
+
+@btnDangerBackground:               #ee5f5b;
+@btnDangerBackgroundHighlight:      #bd362f;
+
+@btnInverseBackground:              @gray;
+@btnInverseBackgroundHighlight:     @grayDarker;
+
+// Dropdowns
+// -------------------------
+@dropdownBackground:			@white;
+@dropdownBorder:				rgba(0,0,0,.2);
+@dropdownLinkColor:				@grayDark;
+@dropdownLinkColorHover:		@white;
+@dropdownLinkBackgroundHover:	@linkColor;
+@dropdownDividerTop:			#e5e5e5;
+@dropdownDividerBottom:			@white;
+
+
+// Navbar
+// -------------------------
+@navbarHeight:                    40px;
+@navbarBackground:                @grayDarker;
+@navbarBackgroundHighlight:       @grayDark;
+
+@navbarText:                      @grayLight;
+@navbarLinkColor:                 @grayLight;
+@navbarLinkColorHover:            @white;
+@navbarLinkColorActive:           @navbarLinkColorHover;
+@navbarLinkBackgroundHover:       transparent;
+@navbarLinkBackgroundActive:      @navbarBackground;
+
+@navbarSearchBackground:          lighten(@navbarBackground, 25%);
+@navbarSearchBackgroundFocus:     @white;
+@navbarSearchBorder:              darken(@navbarSearchBackground, 30%);
+@navbarSearchPlaceholderColor:    #ccc;
+@navbarBrandColor:                @navbarLinkColor;
+
+
+// Z-index master list
+// -------------------------
+@zindexDropdown:				1000;
+@zindexPopover:					1010;
+@zindexTooltip:					1020;
+@zindexFixedNavbar:				1030;
+@zindexModalBackdrop:			1040;
+@zindexModal:					1050;
+
+
+// Sprite icons path
+// -------------------------
+@iconSpritePath:				"../img/glyphicons-halflings.png";
+@iconWhiteSpritePath:			"../img/glyphicons-halflings-white.png";
+
+
+// Structure
+// -------------------------
+@smallSampleHeight:				250px;
+@bigSampleHeight:				300px;
+@bannerHeight:					56px;
+@footerHeight:					28px;
+@pageMargin:					2.8%;
+@columnWidth:					8%;
+@gutterWidth:					2.8%;
