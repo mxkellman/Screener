@@ -4,7 +4,8 @@ var dd = dd || {};
 $(document).ready(function(){
 	dd.setup();
 });
-/* make colors more vibrant
+/* refactor the entire code base
+ * make colors more vibrant
  * add labels to sliders
  * add summary information
  * move "dist from center" abover color/size
