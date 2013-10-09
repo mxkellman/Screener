@@ -4,8 +4,7 @@ var dd = dd || {};
 $(document).ready(function(){
 	dd.setup();
 });
-/* moving to gitlab
- * refactor the entire code base
+/* refactor the entire code base
  * make colors more vibrant
  * add labels to sliders
  * add summary information
