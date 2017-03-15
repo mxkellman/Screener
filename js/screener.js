@@ -689,7 +689,7 @@ dd.draw.circles = function() {
 				.attr('cy', function(d) { return d.y; });
 		dd.symbolGroup.selectAll('text')
 				.attr('x', function(d) { return d.x; })
-				.attr('y', function(d) { return d.y + dd.scale.text(d[dd.param.size])* 0.4; });
+				.attr('y', function(d) { return d.y + (dd.scale.text(d[dd.param.size]) | 0) * 0.4; });
 	});
 };
 
